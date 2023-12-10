@@ -1,0 +1,17 @@
+{
+  "name": "employee_class_test_environment",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest --run"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^0.34.6",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {}
+}
